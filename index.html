@@ -1,15 +1,247 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Placeholder Example</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Bex Personal Training | Auckland</title>
+  <meta name="description" content="Personal training with Bex Haywood in Auckland — enjoyable, supportive coaching focused on strength, confidence, injury management and meaningful progress." />
+
+  <meta property="og:title" content="Bex Personal Training" />
+  <meta property="og:description" content="Strength. Confidence. Progress." />
+  <meta property="og:type" content="website" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/main.css" />
+  <script src="js/main.js" defer></script>
 </head>
+
 <body>
-  <h1>Placeholder Demo</h1>
-  <form>
-    <label for="name">Name:</label>
-    <input id="name" name="name" type="text" placeholder="Enter your name here">
-  </form>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Bex Personal Training home">
+      <span class="brand-mark">BEX</span>
+      <span class="brand-sub">PERSONAL TRAINING</span>
+    </a>
+
+    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">Menu</button>
+
+    <nav class="nav" aria-label="Main navigation">
+      <a href="#about">Meet Bex</a>
+      <a href="#approach">Approach</a>
+      <a href="#training">Training</a>
+      <a href="#contact" class="nav-cta">Start training</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-media" role="img" aria-label="Bex Haywood training"></div>
+      <div class="hero-shade"></div>
+
+      <div class="hero-content shell reveal">
+        <p class="eyebrow">PERSONAL TRAINING • AUCKLAND</p>
+        <h1>
+          Strength.<br>
+          Confidence.<br>
+          <span>Progress.</span>
+        </h1>
+
+        <p class="hero-copy">
+          Personal training that helps you enjoy exercise, move well and achieve goals that matter to you.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button button-primary" href="#contact">Train with Bex</a>
+          <a class="text-link" href="#about">Meet Bex <span>↓</span></a>
+        </div>
+      </div>
+
+      <div class="hero-rail">
+        <span>ENJOYMENT</span>
+        <span>STRENGTH</span>
+        <span>LONGEVITY</span>
+      </div>
+    </section>
+
+    <section class="about section shell" id="about">
+      <div class="section-label">01 — MEET BEX</div>
+
+      <div class="about-grid">
+        <div class="about-heading reveal">
+          <p class="kicker">Training should make your life better.</p>
+          <h2>
+            Stronger for the things you actually want to do.
+          </h2>
+        </div>
+
+        <div class="about-copy reveal">
+          <p class="lead">
+            Hi, I’m Bex Haywood. I help people build strength, fitness and confidence through training that is practical, enjoyable and built around real life.
+          </p>
+
+          <p>
+            I don’t believe exercise should feel like punishment. I want you to enjoy what you are doing, feel confident in your body, and have a clear sense that the work you put in is taking you somewhere.
+          </p>
+
+          <p>
+            My own background has always been driven by sport — first swimming, then bodybuilding, and finally powerlifting. Powerlifting suits me because progress is measurable. You can track your strength, hold yourself accountable and experience the buzz of achieving something you once thought was out of reach.
+          </p>
+
+          <p>
+            That feeling is exactly why I do what I do. I love helping other people set a goal, work towards it, and realise they are capable of more than they expected.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="principles section" id="approach">
+      <div class="shell">
+        <div class="section-label light">02 — MY APPROACH</div>
+
+        <div class="principles-heading reveal">
+          <h2>Three things guide every session.</h2>
+          <p>
+            The best training plan is one you can enjoy, sustain and progress with.
+          </p>
+        </div>
+
+        <div class="principle-list">
+          <article class="principle reveal">
+            <span class="principle-index">01</span>
+            <div>
+              <h3>Enjoyment</h3>
+              <p>
+                Is it fun? Do you actually like what you are doing? Do you look forward to it in your routine? If the answer is yes, you are far more likely to stay consistent.
+              </p>
+            </div>
+          </article>
+
+          <article class="principle reveal">
+            <span class="principle-index">02</span>
+            <div>
+              <h3>Injury prevention & management</h3>
+              <p>
+                You shouldn’t simply have to accept pain. Training should help you move better, build resilience and do everything practical to minimise injury now and in the future.
+              </p>
+            </div>
+          </article>
+
+          <article class="principle reveal">
+            <span class="principle-index">03</span>
+            <div>
+              <h3>Achieving goals</h3>
+              <p>
+                Big or small, short-term or long-term — goals create direction. With the right plan, support and consistency, meaningful progress is possible.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="statement">
+      <div class="shell reveal">
+        <p>“The buzz you get from smashing a goal is too good not to encourage.”</p>
+        <span>— Bex Haywood</span>
+      </div>
+    </section>
+
+    <section class="training section shell" id="training">
+      <div class="section-label">03 — TRAINING</div>
+
+      <div class="training-head reveal">
+        <h2>Personal training, built around you.</h2>
+        <p>
+          Whether you are getting started, returning to exercise, managing an injury or simply want to get stronger, training should meet you where you are.
+        </p>
+      </div>
+
+      <div class="training-grid">
+        <article class="training-card reveal">
+          <span>01</span>
+          <h3>1:1 Personal Training</h3>
+          <p>Individual coaching, programming and accountability tailored to your goals, experience and schedule.</p>
+          <a href="#contact">Enquire →</a>
+        </article>
+
+        <article class="training-card reveal">
+          <span>02</span>
+          <h3>Strength & Conditioning</h3>
+          <p>Build useful strength, improve movement quality and develop fitness that carries into everyday life and sport.</p>
+          <a href="#contact">Enquire →</a>
+        </article>
+
+        <article class="training-card reveal">
+          <span>03</span>
+          <h3>Return to Training</h3>
+          <p>A supportive and structured way back to exercise after time away, reduced confidence or injury recovery.</p>
+          <a href="#contact">Enquire →</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="profile-strip">
+      <div class="shell profile-grid">
+        <div class="profile-photo reveal">
+          <img src="images/bex-profile.jpg" alt="Bex Haywood" />
+        </div>
+
+        <div class="profile-copy reveal">
+          <div class="section-label light">04 — WHY BEX</div>
+          <h2>Supportive, focused and always in your corner.</h2>
+          <p>
+            Training is personal. Some days you need to be pushed. Some days you need a smarter option. The aim is always the same: keep moving forward.
+          </p>
+          <p>
+            Bex combines a love of strength training with a practical, encouraging approach that keeps the focus on what matters to you.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="shell contact-grid">
+        <div class="contact-heading reveal">
+          <div class="section-label">05 — START</div>
+          <h2>Ready to start?</h2>
+          <p>
+            Tell Bex what you would like to achieve and take the first step.
+          </p>
+        </div>
+
+        <div class="contact-panel reveal">
+          <a class="button button-dark" href="mailto:bex.j.haywood@gmail.com?subject=Personal%20training%20enquiry">Email Bex</a>
+
+          <div class="contact-details">
+            <a href="tel:+642102456191">
+              <span>PHONE</span>
+              <strong>021 024 56191</strong>
+            </a>
+
+            <a href="mailto:bex.j.haywood@gmail.com">
+              <span>EMAIL</span>
+              <strong>bex.j.haywood@gmail.com</strong>
+            </a>
+
+            <div>
+              <span>LOCATION</span>
+              <strong>Auckland, New Zealand</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer shell">
+    <div class="footer-brand">
+      <strong>BEX</strong>
+      <span>Personal Training</span>
+    </div>
+    <p>© <span id="year"></span> Bex Haywood</p>
+  </footer>
 </body>
 </html>
