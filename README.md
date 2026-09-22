@@ -1,21 +1,13 @@
-# Train With Bex V3
+# Train With Bex V4
 
-Complete replacement site based on Bex's discovery questionnaire.
+Changes from V3:
+- Replaced the generated hero with the real Bex/client training photograph supplied.
+- Added a dedicated TrueCoach / Online Programming section.
+- Used three real TrueCoach screenshots; the client greeting/name in the workout overview has been cropped out.
+- Added Bex's explanation of personalised programming, her own demo videos, notes/results and programme adjustments.
+- Retained $25 / four-week online pricing.
 
-## Add two images
-- `images/hero.jpg` — wide landscape training image
-- `images/bex-profile.jpg` — vertical portrait/training image
-
-Until those files are added the layout still works, but the image areas will be blank/dark.
-
-## Deploy
-Copy these files over the existing project, then:
-
-    git add .
-    git commit -m "Build Train With Bex V3"
-    git push
-
-Cloudflare should deploy from `main` automatically.
-
-## Before final launch
-Confirm wording around injury/rehabilitation, current Instagram handle, Genesis Fitness location wording, and photo permissions.
+Deploy by replacing the current project files, then:
+git add .
+git commit -m "Add TrueCoach section and real hero"
+git push
