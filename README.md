@@ -1,13 +1,15 @@
-# Train With Bex V4
+# Train With Bex V6
 
-Changes from V3:
-- Replaced the generated hero with the real Bex/client training photograph supplied.
-- Added a dedicated TrueCoach / Online Programming section.
-- Used three real TrueCoach screenshots; the client greeting/name in the workout overview has been cropped out.
-- Added Bex's explanation of personalised programming, her own demo videos, notes/results and programme adjustments.
-- Retained $25 / four-week online pricing.
+Changes requested by Bex:
+- Added her full training-process methodology: body mechanics first, then goal-specific training.
+- Added scapular retraction and pelvic tilt as examples of the fundamentals she teaches.
+- Expanded the biomechanics/body-awareness explanation into everyday movement and golf.
+- Replaced the right-hand TrueCoach comment screenshot with a clean programme screenshot.
+- Restored a Bex profile image to the bottom/contact area.
+- No photograph of Bex has been retouched, regenerated, or otherwise altered in V6.
+- The original supplied training photograph is included unchanged and used by the page.
 
-Deploy by replacing the current project files, then:
+Deploy:
 git add .
-git commit -m "Add TrueCoach section and real hero"
+git commit -m "Build V6 training process and photo updates"
 git push
