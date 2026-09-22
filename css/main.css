@@ -45,3 +45,10 @@
   .golf-process{padding:28px}
   .contact-photo:after{opacity:.16;width:100%}
 }
+
+/* V7 — supplied profile portrait, used unchanged */
+.contact-photo:after{
+  background-image:url("../images/bex-profile.jpg");
+  background-position:center 30%;
+  background-size:cover;
+}
